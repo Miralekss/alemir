@@ -1,0 +1,15 @@
+.blue {
+    background-color: blue;
+    color:white
+  }
+.container { 
+    max-width: 1140px; 
+    
+    background-color: brown;
+    margin: auto;
+
+    padding-left:  15px;
+
+    padding-right: 15px ;
+}
+
