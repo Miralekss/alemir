@@ -13,3 +13,9 @@
     padding-right: 15px ;
 }
 
+body { font-family: "Sen", sans-serif; 
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
