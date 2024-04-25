@@ -1,21 +1,63 @@
 .blue {
-    background-color: blue;
-    color:white
-  }
-.container { 
-    max-width: 1140px; 
-    
-    background-color: brown;
-    margin: auto;
-
-    padding-left:  15px;
-
-    padding-right: 15px ;
+  background-color: blue;
+  color: white
 }
 
-body { font-family: "Sen", sans-serif; 
+.container {
+  max-width: 1140px;
+
+  background-color: brown;
+  margin: auto;
+
+  padding-left: 15px;
+
+  padding-right: 15px;
 }
+
+body {
+  font-family: "Sen", sans-serif;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
+
+.row {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1{
+   color: aqua;
+
+ }
+ h1{
+  font-size: 40px;
+}
+/* altgr+7 */
+  
+.yellow {
+  color: yellow;
+   }
+   div .red.yellow {
+    color: yellow;
+     }
+     .red {  
+      color: red;
+     }
+     
+.red {  
+  color: red;
+ }
+ .panner {
+  background-color: black;
+  background-image: url(./home-hero-1.jpg.webp);
+  min-height: 300px;
+}
+#Tere {  
+  color: blueviolet;
+ }

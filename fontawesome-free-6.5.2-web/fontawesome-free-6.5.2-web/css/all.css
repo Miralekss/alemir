@@ -852,6 +852,8 @@ readers do not read off random characters that represent icons */
   content: "\f4de"; }
 
 .fa-user-check::before {
+
+  
   content: "\f4fc"; }
 
 .fa-vial-virus::before {
