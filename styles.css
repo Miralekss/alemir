@@ -1,12 +1,12 @@
 .blue {
-  background-color: blue;
-  color: white
+  background-color: white;
+  color: blue
 }
 
 .container {
   max-width: 1140px;
 
-  background-color: brown;
+  
   margin: auto;
 
   padding-left: 15px;
@@ -23,9 +23,11 @@ img {
   height: auto;
 }
 
-.row {
+.flex{
   display: flex;
+  justify-content: space-between;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,6 +39,7 @@ h1{
  }
  h1{
   font-size: 40px;
+  margin-top: 0;
 }
 /* altgr+7 */
   
@@ -61,3 +64,7 @@ h1{
 #Tere {  
   color: blueviolet;
  }
+ .row.grid.banner-colums {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
