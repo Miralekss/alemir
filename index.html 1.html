@@ -22,40 +22,44 @@
         <div class="row flex flex-between">
 
 
-          <div class="colum"><a href="https://www.w3schools.com">
-              <img src="./botiga-multi-vendor-logo.svg" alt="">
+          <div class="colum">
+            <a class="logo" href="https://www.w3schools.com">
+              <img class="logo__img" src="./botiga-multi-vendor-logo.svg" alt="">
+
             </a>
 
           </div>
           <div class="colum">
 
-            <form>
-              <select id="kõik" name="tooted">
-                <option value="all categories">Kõik kategooriad</option>
-                <option value="saab">riided</option>
-                <option value="fiat">arvutid</option>
-                <option value="audi">maja</option>
+            <form class="searchbar">
+              <select class="searchbar__selection" id="kõik" name="tooted">
+                <option class="searchbar__selectoption" value="all categories">Kõik kategooriad</option>
+                <option class="searchbar__selectoption" value="saab">riided</option>
+                <option class="searchbar__selectoption" value="fiat">arvutid</option>
+                <option class="searchbar__selectoption" value="audi">maja</option>
+                <option class="searchbar__selectoption" value="saab">riided</option>
+                <option class="searchbar__selectoption" value="fiat">arvutid</option>
+                <option class="searchbar__selectoption" value="audi">maja</option>
               </select>
-              <input type="submit" id="fname" name="otsing"><br><br>
-
-
-
+              <input class="searchbar__input" type="search">
+              <input class="searchbar__submit" type="submit" id="fname" name="otsing">
 
             </form>
 
           </div>
           <div class="colum">
-            <button type="button"><i class="fa-regular fa-user"></i>
-            </button>
+            <ul class="iconmenu">
+              <li class="iconmenu__listiteme">
+                <a href="#"> <i class="fa-regular fa-hard-drive"></i> </a>
+              </li>
+              <li class="iconmenu__listiteme">
+                <a href="#"> <i class="fa-regular fa-hard-drive"></i> </a>
+              </li>
+              <li class="iconmenu__listiteme">
+                <a href="#"> <i class="fa-regular fa-hard-drive"></i> </a>
+              </li>
 
-            <a href="#"> <i class="fa-regular fa-hard-drive"></i> </a>
-
-            <a href="#"> <i class="fa-regular fa-hard-drive"></i> </a>
-
-
-            <a href="#"> <i class="fa-regular fa-hard-drive"></i> </a>
-
-
+            </ul>
           </div>
         </div>
 
@@ -69,30 +73,30 @@
 
       <div class="container">
 
-      <div class="row flex flex-between">
-        <div class="colum">
-          <nav>
-            <ul class="dropdown">
-              <li class="dropdown-parent">
-                Trending categories
-              </li>
-            </ul>
-          </nav>
+        <div class="row flex flex-between">
+          <div class="colum">
+            <nav class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__parent">
+                  Trending categories
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="colum">
+
+
+          </div>
+          <div class="colum">
+
+
+          </div>
+
 
         </div>
-        <div class="colum">
-
-
-        </div>
-        <div class="colum">
-
-
-        </div>
-
 
       </div>
-      
-    </div>
 
     </section>
 
@@ -137,66 +141,71 @@
         </div>
         <div class="colum">
 
-          <div class="panner">
-            <h1 class="color red">Explore our latest and greatest electronics</h1>
-            <h1 class="color red yellow">Explore our latest and greatest electronics</h1>
-            <h1 id="Tere" class="color yellow">Explore our latest and greatest electronics</h1>
-          </div>
-        <section>
+          <div class="banner">
 
-          <div class="container">
-            <h2 class="sectionheding">
-              popular gategories
-
-            </h2>
-            <div class="row grid sixcolums">
-              <div class="colum">
-                <img src="product-category-1.jpg.webp " alt="web cam">
-                <h4>
-                  body lotion
-                </h4>
-              </div>
-              <div class="colum">
-                <img src="product-category-1.jpg.webp " alt="web cam">
-                <h4>
-                  body lotion
-                </h4>
-              </div>
-              <div class="colum">
-                <img src="product-category-1.jpg.webp " alt="web cam">
-                <h4>
-                  body lotion
-                </h4>
-              </div>
-              <div class="colum">
-                <img src="product-category-1.jpg.webp " alt="web cam">
-                <h4>
-                  body lotion
-                </h4>
-              </div>
-              <div class="colum">
-                <img src="product-category-1.jpg.webp " alt="web cam">
-                <h4>
-                  body lotion
-                </h4>
-              </div>
-              <div class="colum">
-                <img src="product-category-1.jpg.webp " alt="web cam">
-                <h4>
-                  body lotion
-                </h4>
-              </div>
+            <div class="banner__container">
+              <h1 class="banner__heding">Explore our latest and greatest electronics</h1>
+              <a class="button button--white">
+                shop now
+              </a>
             </div>
           </div>
-        </section>
-        
-        
-        </div>
+            <section>
+
+              <div class="container">
+                <h2 class="sectionheding">
+                  popular gategories
+
+                </h2>
+                <div class="row grid sixcolums">
+                  <div class="colum">
+                    <img src="product-category-1.jpg.webp " alt="web cam">
+                    <h4>
+                      body lotion
+                    </h4>
+                  </div>
+                  <div class="colum">
+                    <img src="product-category-1.jpg.webp " alt="web cam">
+                    <h4>
+                      body lotion
+                    </h4>
+                  </div>
+                  <div class="colum">
+                    <img src="product-category-1.jpg.webp " alt="web cam">
+                    <h4>
+                      body lotion
+                    </h4>
+                  </div>
+                  <div class="colum">
+                    <img src="product-category-1.jpg.webp " alt="web cam">
+                    <h4>
+                      body lotion
+                    </h4>
+                  </div>
+                  <div class="colum">
+                    <img src="product-category-1.jpg.webp " alt="web cam">
+                    <h4>
+                      body lotion
+                    </h4>
+                  </div>
+                  <div class="colum">
+                    <img src="product-category-1.jpg.webp " alt="web cam">
+                    <h4>
+                      body lotion
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+          
 
 
 
+        </div> 
+       </div>
       </div>
-    </div>
   </main>
 </body>
 
