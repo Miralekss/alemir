@@ -1,7 +1,19 @@
 * {
-  
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+html{ 
+  font-size: 62.5%;
+
+}
+body {
+  font-family: "Sen", sans-serif;
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 3.8rem;
 }
 .sectionheding {
   text-align: center;
@@ -20,9 +32,7 @@
   padding-right: 15px;
 }
 
-body {
-  font-family: "Sen", sans-serif;
-}
+
 
 img {
   max-width: 100%;
@@ -83,10 +93,12 @@ ul {
   background: white;
 }
 .button {
+  text-transform: uppercase;
+  font-size: 1.4rem;
   display: inline-block;
   padding: 15px;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 1.72em;
+  padding-left: 1.7em;
 }
 #Tere {  
   color: blueviolet;
