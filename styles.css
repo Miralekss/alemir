@@ -1,8 +1,12 @@
 * {
+  
   margin: 0;
   padding: 0;
 }
-   
+.sectionheding {
+  text-align: center;
+ 
+} 
 
 
 .container {
@@ -24,12 +28,26 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.section--lgpadding {
+  padding: 120px 0px;
+}
+.section--beige {
+  background-color: #ebf0d6;
+}
 .flex{
   display: flex;
   justify-content: space-between;
 }
+.row--threecolums {
+  grid-auto-flow: column;
+  display: grid;
+}
+.grid.sixcolums {
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
 
+}
 ul {
   list-style-type: none;
   margin: 0;
