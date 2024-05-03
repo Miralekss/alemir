@@ -4,6 +4,13 @@
   padding: 0;
 
 }
+
+form.searchbar {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
 html{ 
   font-size: 62.5%;
 
@@ -16,10 +23,18 @@ h2 {
   font-size: 3.8rem;
 }
 .sectionheding {
+  margin: 45px 206.4px 30px;
   text-align: center;
  
 } 
-
+select#kõik {
+  border-radius: 6px;
+  padding: 1em 2.5em 1em 1em;
+  background-image: none;
+  font-size: 16px;
+  min-height: 0;
+  min-width: 140px;
+}
 
 .container {
   max-width: 1140px;
@@ -32,7 +47,10 @@ h2 {
   padding-right: 15px;
 }
 
-
+input.searchbar__input {
+  border-radius: 6px;
+  padding: 11.2px 61px 11.2px 16px;
+}
 
 img {
   max-width: 100%;
@@ -49,6 +67,8 @@ img {
   justify-content: space-between;
 }
 .row--threecolums {
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: column;
   display: grid;
 }
@@ -58,6 +78,17 @@ img {
   display: grid;
 
 }
+.thumbnail__broductcolor {
+  border-style: double;
+  border-width: 2px;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 2px;
+  border-color: black;
+  border-radius: 100%;
+  background-color: #bfb9a6;
+  display: inline-block;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -66,6 +97,7 @@ ul {
 
  
  h1{
+
   font-size: 40px;
   margin-top: 0;
 }
@@ -82,6 +114,10 @@ ul {
   display: flex;
 }
  .banner {
+  color: white;
+  padding: 3rem;
+  display: flex;
+  align-items: flex-end;
   background-size: cover;
   background-color: black;
   background-image: url(./home-hero-1.jpg.webp);
@@ -89,16 +125,20 @@ ul {
   min-height: 300px;
   background-repeat: no-repeat;
 }
-.button--white {
-  background: white;
-}
+
 .button {
+  background-color: blue;
+  color: white;
   text-transform: uppercase;
   font-size: 1.4rem;
   display: inline-block;
   padding: 15px;
   padding-right: 1.72em;
   padding-left: 1.7em;
+}
+.button--white {
+  color: black;
+  background: white;
 }
 #Tere {  
   color: blueviolet;
