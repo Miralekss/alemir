@@ -108,6 +108,14 @@ ul {
  .logo__img {
   max-height: 25px;
 }
+img.hoverimage {
+  display: none;
+}
+a.button.thumbnail__selectoptions {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
 .iconmenu {
   font-size: 25px;
   gap: 20px;
@@ -146,4 +154,11 @@ ul {
  .row.grid.banner-colums {
   display: grid;
   grid-template-columns: 3fr 7fr;
+}
+.thumbnail__pictureholder {
+  position: relative;
+}
+ul.iconlist {
+  right: 5px;
+  position: absolute;
 }
