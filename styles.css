@@ -74,9 +74,14 @@ img {
 }
 .grid.sixcolums {
   gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   display: grid;
 
+}
+.iconlist__icon {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 15px;
 }
 .thumbnail__broductcolor {
   border-style: double;
@@ -112,6 +117,8 @@ img.hoverimage {
   display: none;
 }
 a.button.thumbnail__selectoptions {
+  text-align: center;
+  right: 0;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -155,10 +162,31 @@ a.button.thumbnail__selectoptions {
   display: grid;
   grid-template-columns: 3fr 7fr;
 }
+.thumbnail__buttoncenter {
+  display: flex;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
 .thumbnail__pictureholder {
   position: relative;
 }
 ul.iconlist {
   right: 5px;
   position: absolute;
+}
+@media screen and (min-width: 500px) {
+  .row.grid.sixcolums {
+    grid-template-columns: 1fr 1fr ;
+}
+}
+@media screen and (min-width: 800px) {
+  .row.grid.sixcolums {
+    grid-template-columns: 1fr 1fr 1fr ;
+}
 }
