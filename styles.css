@@ -20,6 +20,9 @@ body {
 h2 {
   font-size: 3.8rem;
 }
+ul.verticalmenu {
+  display: none;
+}
 .sectionheding {
   margin: 45px 0px 30px;
   text-align: center;
@@ -32,6 +35,28 @@ select#kõik {
   font-size: 16px;
   min-height: 0;
   min-width: 140px;
+}
+li.dropdown__parent {
+  position: relative;
+  background-color: blue;
+}
+
+li.dropdown__parent::after {
+  content: "\f078";
+  
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+ul.dropdown__menu {
+  background-color: white;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+li.dropdown__parent:hover .dropdown__menu {
+  display:block;
+
 }
 
 .container {
@@ -228,6 +253,10 @@ form.searchbar {
 @media screen and (min-width: 800px) {
   .row.grid.sixcolums {
     grid-template-columns: 1fr 1fr 1fr ;
+
+}
+ul.verticalmenu {
+  display: flex;
 }
 .flex {
   display: flex;
