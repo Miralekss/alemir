@@ -187,12 +187,20 @@ a.button.thumbnail__selectoptions {
   color: black;
   background: white;
 }
-#Tere {  
-  color: blueviolet;
- }
+
  .row.grid.banner-colums {
   display: grid;
   
+}
+aside.mobilemenu {
+  padding: 15px;
+  min-height: 50%;
+  min-width: 50%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  position: fixed;
 }
 
 .colum {
