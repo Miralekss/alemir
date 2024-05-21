@@ -89,6 +89,17 @@ img {
   
   justify-content: space-between;
 }
+.mobile-menu-visible::before{
+content:"";
+position:fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: #a52a2a99;
+z-index: 3;
+
+}
 .row--threecolums {
   gap: 30px;
 
@@ -199,8 +210,10 @@ aside.mobilemenu {
   left: 0;
   bottom: 0;
   top: 0;
-  background-color: white;
+display: none;
   position: fixed;
+  background-color: white;
+  z-index: 4;
 }
 
 .colum {
